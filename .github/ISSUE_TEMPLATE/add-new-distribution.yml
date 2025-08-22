@@ -1,0 +1,85 @@
+name: 🐧 Add New Distribution
+description: Suggest a new Linux distribution to be added to the repository
+title: "[ADD] Distribution Name"
+labels: ["add-distro", "needs-verification"]
+body:
+  - type: input
+    id: distro-name
+    attributes:
+      label: Distribution Name
+      description: What is the name of the distribution?
+      placeholder: ex. Ubuntu, Fedora, Arch Linux
+    validations:
+      required: true
+  
+  - type: input
+    id: website
+    attributes:
+      label: Official Website
+      description: What is the official website URL?
+      placeholder: https://example.com
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a brief description of the distribution
+      placeholder: A brief description explaining what this distribution is about
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this distribution belong to?
+      options:
+        - Beginner-Friendly
+        - Power User/Advanced
+        - Community Derivatives
+        - Lightweight
+        - Specialized
+        - Enterprise/Server
+        - Rolling Release
+        - Unique/Alternative
+    validations:
+      required: true
+  
+  - type: input
+    id: base-distro
+    attributes:
+      label: Base Distribution
+      description: What is this distribution based on?
+      placeholder: ex. Ubuntu, Debian, Arch, Independent
+    validations:
+      required: true
+  
+  - type: textarea
+    id: versions
+    attributes:
+      label: Available Versions/Editions
+      description: List the different versions or editions available
+      placeholder: |
+        - Standard Edition
+        - KDE Edition
+        - Server Edition
+    validations:
+      required: true
+  
+  - type: textarea
+    id: suggested-tags
+    attributes:
+      label: Suggested Tags
+      description: Suggest relevant tags for this distribution
+      placeholder: beginner-friendly, ubuntu-based, stable, desktop
+    validations:
+      required: true
+  
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any other relevant information about this distribution
+      placeholder: Why should this distribution be included? What makes it special?
