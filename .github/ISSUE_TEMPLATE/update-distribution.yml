@@ -1,0 +1,60 @@
+name: ✏️ Update Distribution Information
+description: Update or correct information about an existing distribution
+title: "[UPDATE] Distribution Name"
+labels: ["update-info", "needs-verification"]
+body:
+  - type: input
+    id: distro-name
+    attributes:
+      label: Distribution Name
+      description: Which distribution needs updating?
+      placeholder: ex. Ubuntu, Fedora, Arch Linux
+    validations:
+      required: true
+  
+  - type: checkboxes
+    id: update-type
+    attributes:
+      label: What needs updating?
+      options:
+        - label: Description
+        - label: Website URL
+        - label: Available versions/editions
+        - label: Pros and cons
+        - label: Tags
+        - label: Category placement
+        - label: Other (specify below)
+    validations:
+      required: true
+  
+  - type: textarea
+    id: current-info
+    attributes:
+      label: Current Information
+      description: Copy the current information that's incorrect
+      placeholder: Paste the current information that needs updating
+    validations:
+      required: true
+  
+  - type: textarea
+    id: updated-info
+    attributes:
+      label: Corrected Information
+      description: Provide the correct information
+      placeholder: Provide the corrected/updated information
+    validations:
+      required: true
+  
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Provide a source/reference for the updated information
+      placeholder: Official website, documentation, news article, etc.
+  
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any additional context or notes
+      placeholder: Explain why this update is needed
