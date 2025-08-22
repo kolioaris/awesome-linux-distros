@@ -7,6 +7,7 @@
 </div>
 <br/>
 
+
 This repository contains a carefully curated collection of Linux distributions organized by category, difficulty level, and use case. Each distribution includes detailed information about versions, pros and cons, official websites, and comprehensive tags.
 
 For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-linux-distros/wiki).
