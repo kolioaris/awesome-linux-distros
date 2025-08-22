@@ -1,0 +1,48 @@
+name: ❓ Question
+description: Ask a question about the repository, distributions, or project
+title: "[QUESTION] Your question here"
+labels: ["question"]
+body:
+  - type: dropdown
+    id: question-type
+    attributes:
+      label: Question Type
+      description: What type of question is this?
+      options:
+        - About a specific distribution
+        - About the repository structure
+        - About contributing
+        - About missing distributions
+        - General Linux question
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Ask your question in detail
+      placeholder: Please be as specific as possible
+    validations:
+      required: true
+  
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Provide any additional context that might help answer your question
+      placeholder: Background information, what you've already tried, etc.
+  
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues and discussions
+          required: true
+        - label: This question hasn't been asked before
+          required: true
+        - label: This is related to the repository content
+          required: true
