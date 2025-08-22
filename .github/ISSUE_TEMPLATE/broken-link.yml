@@ -1,0 +1,50 @@
+name: 🔗 Broken Link Report
+description: Report a broken or incorrect website link
+title: "[LINK] Broken link for Distribution Name"
+labels: ["broken-link", "bug", "priority-high"]
+body:
+  - type: input
+    id: distro-name
+    attributes:
+      label: Distribution Name
+      description: Which distribution has the broken link?
+      placeholder: ex. Ubuntu, Fedora, Arch Linux
+    validations:
+      required: true
+  
+  - type: input
+    id: broken-url
+    attributes:
+      label: Broken URL
+      description: What is the broken/incorrect URL?
+      placeholder: https://example.com
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: link-status
+    attributes:
+      label: Link Status
+      description: What's wrong with the link?
+      options:
+        - 404 Not Found
+        - Site redirects to different content
+        - Site is down/inaccessible
+        - Wrong website entirely
+        - Other issue
+    validations:
+      required: true
+  
+  - type: input
+    id: correct-url
+    attributes:
+      label: Correct URL (if known)
+      description: If you know the correct URL, please provide it
+      placeholder: https://correct-website.com
+  
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional context about the broken link
+      placeholder: When did you notice it was broken? Any other details?
