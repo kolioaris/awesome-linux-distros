@@ -1,0 +1,64 @@
+name: 🏷️ Tag/Category Suggestion
+description: Suggest new tags, categories, or changes to the organizational structure
+title: "[TAG] Suggestion for new tag or category"
+labels: ["tags", "enhancement", "needs-discussion"]
+body:
+  - type: dropdown
+    id: suggestion-type
+    attributes:
+      label: Suggestion Type
+      description: What are you suggesting?
+      options:
+        - New tag
+        - New category
+        - Rename existing tag
+        - Rename existing category
+        - Reorganize categories
+        - Remove tag/category
+        - Other
+    validations:
+      required: true
+  
+  - type: input
+    id: tag-category-name
+    attributes:
+      label: Tag/Category Name
+      description: What is the name of the new/changed tag or category?
+      placeholder: ex. gaming-focused, server-oriented, etc.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe what this tag/category would represent
+      placeholder: Explain what distributions would fall under this tag/category
+    validations:
+      required: true
+  
+  - type: textarea
+    id: distributions-affected
+    attributes:
+      label: Affected Distributions
+      description: List distributions that would use this tag or be in this category
+      placeholder: |
+        - Distribution 1
+        - Distribution 2
+        - Distribution 3
+  
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale
+      description: Why is this tag/category needed?
+      placeholder: Explain why this would improve the organization or user experience
+    validations:
+      required: true
+  
+  - type: textarea
+    id: additional-notes
+    attributes:
+      label: Additional Notes
+      description: Any additional context or suggestions
+      placeholder: Any other relevant information
