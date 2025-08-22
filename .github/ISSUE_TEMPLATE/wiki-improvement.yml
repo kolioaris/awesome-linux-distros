@@ -1,0 +1,64 @@
+name: 📚 Wiki Improvement
+description: Suggest improvements to the wiki, formatting, or repository organization
+title: "[WIKI] Improvement suggestion"
+labels: ["wiki", "enhancement"]
+body:
+  - type: dropdown
+    id: improvement-type
+    attributes:
+      label: Improvement Type
+      description: What type of improvement is this?
+      options:
+        - README improvements
+        - Better formatting
+        - Repository organization
+        - New section/category
+        - Tag system improvements
+        - Navigation improvements
+        - Template improvements
+        - Other
+    validations:
+      required: true
+  
+  - type: textarea
+    id: current-situation
+    attributes:
+      label: Current Situation
+      description: Describe the current state that could be improved
+      placeholder: Explain what currently exists and why it needs improvement
+    validations:
+      required: true
+  
+  - type: textarea
+    id: proposed-improvement
+    attributes:
+      label: Proposed Improvement
+      description: Describe your suggested improvement
+      placeholder: Explain your suggestion in detail
+    validations:
+      required: true
+  
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefits
+      description: How would this improvement help users or contributors?
+      placeholder: Explain the benefits of implementing this improvement
+  
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Implementation Difficulty
+      description: How difficult do you think this would be to implement?
+      options:
+        - Easy (minor changes)
+        - Medium (some restructuring)
+        - Hard (major changes)
+        - Not sure
+  
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any additional context, examples, or references
+      placeholder: Links to examples, screenshots, or other relevant information
