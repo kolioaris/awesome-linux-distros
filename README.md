@@ -230,8 +230,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ## Power User/Advanced Distributions
 
-### Arch Linux
-**Website:** https://archlinux.org 
+### [Arch Linux](https://archlinux.org) 
  > Minimalist, do-it-yourself rolling release distribution for experienced users.
 
 **Versions:**
@@ -628,13 +627,92 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 **Cons:**
 - Can be flashy/overwhelming
 - Resource intensive themes
+### Ubuntu MATE
+**Website:** https://ubuntu-mate.org 
+ > Ubuntu derivative featuring the traditional MATE desktop environment.
+
+**Versions:**
+- Ubuntu MATE (MATE desktop)
+
+**Pros:**
+- Traditional desktop experience
+- Highly customizable
+- Good performance
+- Familiar interface
+- Raspberry Pi support
+
+**Cons:**
+- Less modern than other desktops
+- Smaller user base
+- Limited development resources
+- Traditional look may seem dated
+
+---
+
+### Ubuntu Budgie
+**Website:** https://ubuntubudgie.org 
+ > Ubuntu derivative featuring the modern Budgie desktop environment.
+
+**Versions:**
+- Ubuntu Budgie (Budgie desktop)
+
+**Pros:**
+- Modern, elegant interface
+- Lightweight yet feature-rich
+- Good customization options
+- Ubuntu base stability
+- Active development
+
+**Cons:**
+- Smaller community than main Ubuntu flavors
+- Budgie desktop still maturing
+- Limited compared to GNOME/KDE
+- Less software optimization
+
+---
+
+### KDE neon
+**Website:** https://neon.kde.org 
+ > Ubuntu LTS base with the latest KDE software directly from KDE developers.
+
+**Versions:**
+- KDE neon User Edition
+- KDE neon Developer Edition
+- KDE neon Testing Edition
+- KDE neon Unstable Edition
+
+**Pros:**
+- Latest KDE software
+- Stable Ubuntu LTS base
+- Official KDE project
+- Cutting-edge KDE features
+- Good hardware support
+
+**Cons:**
+- Focus only on KDE
+- Can have KDE beta software issues
+- Not suitable for KDE newcomers
+- Limited non-KDE software optimization
+
+---
+
+### [MX Linux](https://mxlinux.org)
+ > Debian-based distribution combining stability with modern tools and beautiful desktop.
+
+**Versions:**
+- MX-21 Xfce (Main edition)
+- MX-21 KDE
+- MX-21 Fluxbox
+
+**Pros:**
+- Very stable Debian base
+
 - Gaming focus may not suit everyone
 - Relatively new distribution
 
 ---
 
-### Linux Mint Debian Edition (LMDE)
-**Website:** https://www.linuxmint.com/download_lmde.php 
+### [Linux Mint Debian Edition (LMDE)](https://www.linuxmint.com/download_lmde.php)
  > Linux Mint directly based on Debian instead of Ubuntu.
 
 **Versions:**
@@ -655,8 +733,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Artix Linux
-**Website:** https://artixlinux.org 
+### [Artix Linux](https://artixlinux.org)
  > Arch-based distribution without systemd, offering multiple init systems.
 
 **Versions:**
@@ -681,8 +758,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### BlackArch
-**Website:** https://blackarch.org 
+### [BlackArch](https://blackarch.org)
  > Arch-based penetration testing distribution with over 2400 tools.
 
 **Versions:**
@@ -704,8 +780,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Parabola GNU/Linux-libre
-**Website:** https://www.parabola.nu 
+### [Parabola GNU/Linux-libre](https://www.parabola.nu)
  > Fully free Arch-based distribution endorsed by the Free Software Foundation.
 
 **Versions:**
@@ -726,8 +801,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### CachyOS
-**Website:** https://cachyos.org 
+### [CachyOS](https://cachyos.org)
  > Arch-based distribution optimized for performance with custom kernel and optimizations.
 
 **Versions:**
@@ -752,8 +826,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ## Lightweight Distributions
 
-### Puppy Linux
-**Website:** https://puppylinux-woof-ce.github.io 
+### [Puppy Linux](https://puppylinux-woof-ce.github.io)
  > Extremely lightweight distribution designed to run entirely in RAM.
 
 **Versions:**
@@ -776,8 +849,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### antiX
-**Website:** https://antixlinux.com 
+### [antiX](https://antixlinux.com) 
  > Fast, lightweight systemd-free distribution based on Debian stable.
 
 **Versions:**
@@ -801,8 +873,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Tiny Core Linux
-**Website:** http://tinycorelinux.net 
+### [Tiny Core Linux](http://tinycorelinux.net) 
  > Minimalistic Linux distribution focusing on providing a base for customization.
 
 **Versions:**
@@ -825,8 +896,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### LXLE
-**Website:** https://lxle.net 
+### [LXLE](https://lxle.net) 
  > Ubuntu-based distribution designed to revive older computers with LXDE desktop.
 
 **Versions:**
@@ -847,8 +917,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Peppermint OS
-**Website:** https://peppermintos.com 
+### [Peppermint OS](https://peppermintos.com)
  > Cloud-focused lightweight distribution with web application integration.
 
 **Versions:**
@@ -869,8 +938,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### SparkyLinux
-**Website:** https://sparkylinux.org 
+### [SparkyLinux](https://sparkylinux.org)
  > Fast, lightweight, and fully customizable Debian-based distribution.
 
 **Versions:**
@@ -894,8 +962,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ## Specialized Distributions
 
-### Kali Linux
-**Website:** https://www.kali.org 
+### [Kali Linux](https://www.kali.org)
  > Debian-based distribution designed for penetration testing and security auditing.
 
 **Versions:**
@@ -919,8 +986,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Parrot Security
-**Website:** https://www.parrotsec.org 
+### [Parrot Security](https://www.parrotsec.org) 
  > Debian-based security and privacy focused distribution for security research.
 
 **Versions:**
@@ -943,8 +1009,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Tails
-**Website:** https://tails.boum.org 
+### [Tails](https://tails.boum.org) 
  > Privacy-focused live operating system that leaves no traces and routes everything through Tor.
 
 **Versions:**
@@ -965,8 +1030,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Qubes OS
-**Website:** https://www.qubes-os.org 
+### [Qubes OS](https://www.qubes-os.org)
  > Security-focused operating system using virtualization to isolate different activities.
 
 **Versions:**
@@ -987,8 +1051,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Ubuntu Studio
-**Website:** https://ubuntustudio.org 
+### [Ubuntu Studio](https://ubuntustudio.org)
  > Ubuntu variant designed for multimedia production with creative software pre-installed.
 
 **Versions:**
@@ -1009,8 +1072,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### SteamOS
-**Website:** https://store.steampowered.com/steamos 
+### [SteamOS](https://store.steampowered.com/steamos) 
  > Valve's gaming-focused distribution designed for living room gaming.
 
 **Versions:**
@@ -1032,8 +1094,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ## Enterprise/Server Distributions
 
-### Red Hat Enterprise Linux (RHEL)
-**Website:** https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux 
+### [Red Hat Enterprise Linux (RHEL)](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux)
  > Commercial enterprise distribution with long-term support and professional services.
 
 **Versions:**
@@ -1057,8 +1118,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Rocky Linux
-**Website:** https://rockylinux.org 
+### [Rocky Linux](https://rockylinux.org) 
  > Free, community-driven RHEL-compatible distribution created by CentOS founder.
 
 **Versions:**
@@ -1081,8 +1141,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### AlmaLinux
-**Website:** https://almalinux.org 
+### [AlmaLinux](https://almalinux.org) 
  > Community-driven, binary-compatible RHEL fork backed by CloudLinux.
 
 **Versions:**
@@ -1105,8 +1164,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Debian
-**Website:** https://www.debian.org 
+### [Debian](https://www.debian.org) 
  > Universal operating system known for stability and serving as base for many distributions.
 
 **Versions:**
@@ -1129,8 +1187,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### SUSE Linux Enterprise
-**Website:** https://www.suse.com/products/server 
+### [SUSE Linux Enterprise](https://www.suse.com/products/server)
  > Commercial enterprise distribution with professional support and enterprise features.
 
 **Versions:**
@@ -1153,8 +1210,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### ClearOS
-**Website:** https://www.clearos.com 
+### [ClearOS](https://www.clearos.com) 
  > Small business server distribution with web-based administration interface.
 
 **Versions:**
@@ -1176,8 +1232,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ## Rolling Release Distributions
 
-### Solus
-**Website:** https://getsol.us 
+### [Solus](https://getsol.us) 
  > Independent rolling release distribution with custom desktop environment and curated software.
 
 **Versions:**
@@ -1201,8 +1256,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### KaOS
-**Website:** https://kaosx.us 
+### [KaOS](https://kaosx.us) 
  > Independent rolling release distribution focused exclusively on KDE and Qt.
 
 **Versions:**
@@ -1223,8 +1277,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### PCLinuxOS
-**Website:** https://www.pclinuxos.com 
+### [PCLinuxOS](https://www.pclinuxos.com) 
  > User-friendly rolling release distribution with emphasis on desktop computing.
 
 **Versions:**
@@ -1248,8 +1301,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ## Unique/Alternative Distributions
 
-### GoboLinux
-**Website:** https://www.gobolinux.org 
+### [GoboLinux](https://www.gobolinux.org)
  > Alternative Linux distribution with a unique filesystem hierarchy and package management.
 
 **Versions:**
@@ -1270,8 +1322,7 @@ For easier navigation, visit the [wiki](https://github.com/kolioaris/awesome-lin
 
 ---
 
-### Bedrock Linux
-**Website:** https://bedrocklinux.org 
+### [Bedrock Linux](https://bedrocklinux.org)
  > Meta-distribution that allows users to mix and match components from other Linux distributions.
 
 **Versions:**
